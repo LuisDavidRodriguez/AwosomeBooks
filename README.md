@@ -2,22 +2,24 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 > Description the project.
- -a dynamic book sore that allows users to add/remove books from a list
+ - A dynamic book sore that allows users to add/remove books from a list
  
 
 - Follow GitHub flow.
 - Open pull requests in GitHub.
+- Use Luxon to print the DateTime
+- Refactor using ES6 sintax
 
 
 ## Built With
--javaSCript
+- JavaSCript
 
 ## Getting Started
 - Please download clone the reporsitory link from githhub
 - https://github.com/tamana-Balkhi/Awesome-books.git
 
 ## Live Demo Deployment
-no live demo yet
+- No live demo yet
 
 
 
@@ -27,16 +29,8 @@ no live demo yet
 
 
 - GitHub: [ Luise @githubhandle](https://github.com/LuisDavidRodriguez)
-- LinkedIn:[  Luis profile](https://www.linkedin.com/in/luis-david-rodriguez-valades-24a0a8239)
+- LinkedIn: [  Luis profile](https://www.linkedin.com/in/luis-david-rodriguez-valades-24a0a8239)
 - Youtube: [ Luis chanel](https://www.youtube.com/channel/UChuA4SgdDYk2DHStsy7HEgQ)
-
-👤 **Tamana Balkhi**
-
-- GitHub: [ Tamana balkhi](https://github.com/tamana-Balkhi)
-- LinkedIn: [tamana balkhi ](https://www.linkedin.com/in/tamana-balkhi-1212171b6/)
-
-
-
 
 
 ## 🤝 Contributing
