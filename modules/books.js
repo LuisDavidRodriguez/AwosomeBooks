@@ -13,12 +13,6 @@ const contact = document.querySelector('.contact');
 const showformNav = document.querySelector('#newBook');
 const showcontactNav = document.querySelector('#Contact');
 const mainTitle = document.querySelector('.main-title');
-const currentTime = document.querySelector('#currentTime');
-
-setInterval(() => {
-  const date = new Date();
-  currentTime.textContent = date;
-}, 500);
 
 class BooksManager {
   #arrBooks = [];
