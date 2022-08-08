@@ -1,4 +1,4 @@
-import { DateTime } from '../node_modules/luxon/src/luxon.js';
+import { DateTime } from './luxon.js';
 
 const currentTime = document.querySelector('#currentTime');
 
