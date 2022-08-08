@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Awesome books</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div>
+        <p class="logo">Awesome Books</p>
+      </div>
+      <div>
+        <ul class="nav-list">
+          <li class="lists">
+            <a class="link" href="#" id="booksList">list</a>
+          </li>
+          <li class="lists">
+            <a class="link" href="#" id="newBook">Add New</a>
+          </li>
+          <li class="lists">
+            <a class="link" href="#" id="Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <span class="current-time" id="currentTime"></span>
+    <h1 class="main-title">Awesome book</h1>
+
+    <section id="booksContainer" class="books-container">
+    </section>
+
+    <section class="addform">
+      <h2>Add books</h2>
+      <form action="#" method="get">
+        <label for="title"></label>
+        <input id="title" type="text" placeholder="title" required><br><br>
+        <label for="author"></label>
+        <input id="author" type="text" placeholder="author" required> <br><br>
+        <button type="submit" id="addBtn">add</button>
+      </form>
+    </section>
+
+    <section class="contact">
+      <h1 class="title">Contact Information</h1>
+      <p class="para">
+        Do you have any questions or you just want to say hello?<br />
+        You can reach out to us!
+      </p>
+      <ul>
+        <li class="info">our Email: mail@mail.com</li>
+        <li class="info">our Phone number: 00043586534422</li>
+        <li>Our Address: Streetname22, City, Country</li>        
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p class="footer-p">Copyright</p>
+      <p class="footer-links"></p>
+    </footer>
+  </main>
+  <script src="js/index.js" type="module"></script>
+</body>
+
+</html>

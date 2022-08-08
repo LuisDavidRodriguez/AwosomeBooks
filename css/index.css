@@ -1,0 +1,174 @@
+/* stylelint-disable no-empty-source */
+
+main {
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px 0 10px 10px;
+  margin-bottom: 50px;
+}
+
+.logo {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.lists {
+  padding: 5px 15px;
+  border-right: 2px solid black;
+}
+
+.lists:last-child {
+  border-right: none;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  margin-bottom: 20px;
+  height: 10vh;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 40px;
+}
+
+.current-time {
+  display: flex;
+  justify-content: end;
+  margin-top: 5px;
+}
+
+.books-container {
+  margin: 0 auto;
+  max-width: 900px;
+  margin-bottom: 100px;
+  overflow-y: scroll;
+  height: 50vh;
+  border: 1px grey solid;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.books-container > :nth-child(odd) {
+  background-color: lightgray;
+}
+
+.bookdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid gray;
+}
+
+.books-container p {
+  font-weight: 800;
+  font-size: 17px;
+  width: 33%;
+  text-align: left;
+}
+
+.remove {
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(206, 99, 99);
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addform {
+  width: 40%;
+  margin: 0 auto;
+  padding: 2%;
+  display: none;
+}
+
+.addform h2 {
+  margin: 10px auto 20px;
+}
+
+input {
+  width: 60%;
+  padding: 8px;
+}
+
+input:hover {
+  border: 1px solid green;
+}
+
+#addBtn {
+  width: 100px;
+  padding: 5px;
+  margin: auto;
+  color: #fff;
+  background: rgb(3, 131, 3);
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid gray;
+}
+
+#addBtn:hover {
+  color: rgb(66, 129, 66);
+  background: #fff;
+  border: 1px solid gray;
+}
+
+.contact {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact .title {
+  margin-bottom: 30px;
+}
+
+.contact .para {
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact .info {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.footer {
+  margin: auto;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 98%;
+  bottom: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 50px;
+}
+
+.footer-p,
+.footer-link {
+  padding: 5px 20px 5px 20px;
+}
