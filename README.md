@@ -45,7 +45,7 @@ git clone https://github.com/LuisDavidRodriguez/capstone-1.git
 
 
 - GitHub: [ Luise @githubhandle](https://github.com/LuisDavidRodriguez)
-- LinkedIn: [  Luis profile](https://www.linkedin.com/in/luis-david-rodriguez-valades-24a0a8239)
+- LinkedIn: [  Luis profile](https://www.linkedin.com/in/luis-david-rodriguez-valades)
 - Youtube: [ Luis chanel](https://www.youtube.com/channel/UChuA4SgdDYk2DHStsy7HEgQ)
 
 
